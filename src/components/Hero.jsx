@@ -31,7 +31,7 @@ const Hero = () => {
           </p>
         </div>
         <div>
-          <Button />
+          <Button buttonText="Explore More" bgColor="#fff" color="#557cc1" />
         </div>
       </div>
       <div

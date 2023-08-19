@@ -4,17 +4,11 @@ import p3 from "../assets/p3.jpg";
 import Button from "../components/Button";
 const About = () => {
   return (
-    <div
-      style={{
-        background: "linear-gradient(to right, #fff, #eeeceb)",
-      }}
-      className="about-container"
-    >
+    <div className="about-container">
       <div
         className="container-fluid"
         style={{
           padding: "5rem 5rem",
-          background: "linear-gradient(to right, #fff, #eeeceb)",
         }}
       >
         <div className="row" style={{ maxWidth: "1500px" }}>
@@ -58,7 +52,7 @@ const About = () => {
             className="col-md-6 my-md-0 about-background-image"
             style={{ margin: "5.7rem 0 0 0 " }}
           >
-            <div className="">
+            <div className="" style={{ position: "relative", zIndex: "2" }}>
               <div className="d-flex flex-row align-items-center">
                 <p className="m-0" style={{ color: "#7e9ece" }}>
                   About Our Company
@@ -93,7 +87,7 @@ const About = () => {
                   operated companye.
                 </p>
               </div>
-              <div className="mt-1">
+              <div className="mt-1 position-relative">
                 <Button buttonText="Read More" bgColor="#4273c1" color="#fff" />
               </div>
             </div>

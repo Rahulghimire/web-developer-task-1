@@ -3,7 +3,7 @@ import React from "react";
 const Services = () => {
   return (
     <div
-      className="position-relative"
+      className="position-relative services-container"
       style={{ marginTop: "10rem", padding: "5rem 5rem" }}
     >
       <div className="d-flex align-items-center flex-row">
@@ -28,6 +28,9 @@ const Services = () => {
         <p className="m-0 text-capitalize" style={{ color: "#000" }}>
           No job is too big or too small for the crew at Your Business Name LLC
         </p>
+      </div>
+      <div>
+        
       </div>
     </div>
   );

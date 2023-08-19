@@ -17,7 +17,10 @@ const Footer = () => {
       >
         <div className="row">
           <div className="col col-md-3">
-            <div style={{ backgroundColor: "#fff", padding: "2rem" }}>
+            <div
+              className="mb-3 mb-sm-3"
+              style={{ backgroundColor: "#fff", padding: "2rem" }}
+            >
               <h4 className="mb-2" style={{ color: "#0d6efd" }}>
                 Business Logo
               </h4>
@@ -104,7 +107,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div style={{ padding: "0 5rem", backgroundColor: "#24437c" }}>
+      <div style={{ padding: "0.6rem 5rem", backgroundColor: "#24437c" }}>
         <div className="d-flex flex-row flex-wrap justify-content-between">
           <div>
             <p className="text-white">

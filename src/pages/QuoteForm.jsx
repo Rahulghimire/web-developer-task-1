@@ -26,7 +26,7 @@ const QuoteForm = () => {
             </div>
             <div className="mb-2">
               <p
-                className="m-0 text-capitalize text-center text-white"
+                className="mb-5 text-capitalize text-center text-white"
                 style={{ color: "#000" }}
               >
                 Please contact us with all your water needs. We look forward to

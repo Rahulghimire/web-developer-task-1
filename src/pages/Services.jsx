@@ -2,7 +2,7 @@ import React from "react";
 import ServicesCard from "../components/ServicesCard";
 const Services = () => {
   return (
-    <div className="services-outer-container">
+    <div className="position-relative services-outer-container">
       <div
         className="position-relative services-container"
         style={{ padding: "5rem" }}

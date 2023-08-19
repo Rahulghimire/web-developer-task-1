@@ -1,7 +1,6 @@
 import Carousel from "react-bootstrap/Carousel";
 import CarouselImage from "./CarouselImage";
 import image1 from "../assets/PLUMBING.jpg";
-import image2 from "../assets/p4.jpg";
 
 function TCarousel() {
   return (

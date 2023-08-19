@@ -1,7 +1,6 @@
 import React from "react";
 
 const CarouselImage = ({ imageUrl, text }) => {
-  console.log(imageUrl, text);
   return (
     <div className="carousel-image">
       <img

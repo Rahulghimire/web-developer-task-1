@@ -3,15 +3,18 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const ServicesCard = ({ maxWidth, headerText, paraText }) => {
   return (
-    <div className="services-card" style={{ maxWidth: maxWidth }}>
+    <div
+      className="services-card"
+      style={{ maxWidth: maxWidth, backgroundColor: "#fff" }}
+    >
       <div>
         <h2 style={{ color: "#5692d3" }}>{headerText}</h2>
       </div>
       <div>
         <p>
-          <p className="d-inline pe-1" style={{ fontWeight: "500" }}>
+          <span className="d-inline pe-1" style={{ fontWeight: "500" }}>
             Business Name
-          </p>
+          </span>
           employs access to an exclusive team of certified plumbing
           contarctors,with 24-hour plumbing services available at cost-efficient
           pricing.
@@ -22,7 +25,7 @@ const ServicesCard = ({ maxWidth, headerText, paraText }) => {
           style={{
             color: "#7fe5ff",
             border: "none",
-            backgroundColor: "#fff",
+            backgroundColor: "transparent",
           }}
         >
           View More

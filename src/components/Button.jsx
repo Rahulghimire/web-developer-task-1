@@ -1,6 +1,7 @@
 import React from "react";
 import { IoIosArrowForward } from "react-icons/io";
 import arrow from "../assets/arrow-right.svg";
+
 const Button = ({ buttonText, bgColor, color }) => {
   return (
     <>

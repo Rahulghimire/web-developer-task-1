@@ -141,7 +141,7 @@ body {
   position: absolute;
   width: 50%;
   right: 0;
-  height: 80%;
+  height: 85%;
   background-color: #f9faff;
 }
 
@@ -162,9 +162,106 @@ body {
   border-bottom: 5px solid #4273c1;
   z-index: 1;
 }
+.card-1::before,
+.card-2::before,
+.card-3::before,
+.card-4::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  right: 0;
+  height: 100%;
+  background: linear-gradient(
+      to bottom,
+      rgba(103, 130, 187, 0.49),
+      rgba(103, 130, 187, 0.49)
+    ),
+    rgba(103, 130, 187, 0.49);
+}
 
-/* @media (max-width: 768px) {
-  .services-container {
-    margin-top: 35rem !important;
-  }
+/* Testimonials section starts here */
+
+.testimonials-right {
+  max-width: 29rem;
+  max-height: 29rem;
+}
+
+/* .testimonials-carousel-container {
+  border-left: 50% solid #38d2fb;
+  z-index: 5;
 } */
+
+.testimonials-carousel-container::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  background-image: url("./assets/quote.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 3;
+}
+
+.testimonial-border-container::after {
+  position: absolute;
+  content: "";
+  border-left: 10px solid #38d2fb;
+  height: 50%;
+  left: 0;
+  top: 0;
+  z-index: 3;
+}
+
+.testimonials-carousel-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      to bottom,
+      rgba(48, 89, 147, 0.6),
+      rgba(48, 89, 147, 0.6)
+    ),
+    rgba(48, 89, 147, 0.6);
+  z-index: 1;
+}
+
+.carousel-caption {
+  z-index: 2;
+  top: 1.25rem !important;
+}
+
+.carousel-indicators {
+  z-index: 3 !important;
+}
+
+/* Quote form section starts here */
+
+.quote-form-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./assets/p5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+.form-control {
+  border-radius: 0px !important;
+  border: 1px solid #dbdbdb !important;
+}
+
+@media (max-width: 768px) {
+  .quote-form-margin {
+    margin-top: 30rem !important;
+  }
+}

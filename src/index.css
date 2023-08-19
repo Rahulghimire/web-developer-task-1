@@ -134,8 +134,37 @@ body {
     rgba(234, 232, 231, 0.65);
 }
 
-@media (max-width: 768px) {
+/* services section starts here */
+
+.services-outer-container::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  right: 0;
+  height: 80%;
+  background-color: #f9faff;
+}
+
+.services-card {
+  padding: 1rem;
+  border: 1.8px solid #7fe5ff;
+  position: relative;
+}
+
+.services-card::before {
+  content: "";
+  position: absolute;
+  bottom: -0.25rem;
+  right: -0.25rem;
+  width: 35px; /* Width of the bottom-right border */
+  height: 35px; /* Height of the bottom-right border */
+  border-right: 5px solid #4273c1;
+  border-bottom: 5px solid #4273c1;
+  z-index: 1;
+}
+
+/* @media (max-width: 768px) {
   .services-container {
     margin-top: 35rem !important;
   }
-}
+} */

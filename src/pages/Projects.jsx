@@ -5,7 +5,7 @@ import p5 from "../assets/p5.jpg";
 
 const Projects = () => {
   return (
-    <div style={{ padding: "0 0 5rem 0" }}>
+    <div style={{ padding: "0 0 0 0" }}>
       <div className="d-flex flex-column align-items-center">
         <div className="d-flex align-items-center flex-row">
           <p className="m-0 text-capitalize" style={{ color: "#7e9ece" }}>

@@ -51,8 +51,8 @@ const Testimonials = () => {
                 height={100}
                 style={{
                   border: "10px solid #38d2fb",
-                  width: "200px",
-                  height: "200px",
+                  width: "175px",
+                  height: "175px",
                   borderRadius: "50%",
                 }}
               />

@@ -5,7 +5,7 @@ const Testimonials = () => {
   return (
     <div className="testimonials-outer-container">
       <div
-        style={{ padding: "0 5rem 7.5rem 5rem", backgroundColor: "#fdfdfd" }}
+        style={{ padding: "5rem 5rem 7.5rem 5rem", backgroundColor: "#fdfdfd" }}
       >
         <div className="d-flex flex-row flex-wrap justify-content-between">
           <div className="testimonials-left">
